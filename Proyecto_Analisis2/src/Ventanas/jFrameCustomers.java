@@ -18,6 +18,7 @@ public class jFrameCustomers extends javax.swing.JFrame {
      */
     public jFrameCustomers() {
         initComponents();
+        // todos los datos de la tabla se llenan al comienzo
         llenar_tabla();
     }
     
