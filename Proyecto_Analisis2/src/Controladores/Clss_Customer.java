@@ -24,8 +24,7 @@ public class Clss_Customer extends metodosGenerales {
             modelo.addColumn("Direccion Personal");
             modelo.addColumn("Direccion Negocio");
             modelo.addColumn("Descripcion Empresa");
-            System.out.println("prueba");
-                
+                            
             if (dato.isEmpty()) {
                  consulta = "select nombre, apellido, telefono, direccion_personal, direccion_negocio, "
                         + "descripcion_negocio from cliente ";
